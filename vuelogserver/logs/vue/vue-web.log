@@ -1,0 +1,846 @@
+2020-01-12 10:31:08,906 ERROR 21724 [-/192.168.0.131/-/220ms POST /aplaycomment] nodejs.TypeError: service.video.select is not a function
+    at CommentController.index (D:\Vlog\vue\app\controller\comment.js:18:44)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Vlog\vue\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (D:\Vlog\vue\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async D:\Vlog\vue\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21724
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 10:31:16,727 ERROR 21724 [-/192.168.0.131/-/7ms POST /aplaycomment] nodejs.TypeError: service.video.select is not a function
+    at CommentController.index (D:\Vlog\vue\app\controller\comment.js:18:44)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Vlog\vue\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (D:\Vlog\vue\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async D:\Vlog\vue\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21724
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:16:06,615 ERROR 12236 [-/192.168.0.131/-/143ms GET /getvideo?uid=7] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `0` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `0` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12236
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:16:44,331 ERROR 8996 [-/192.168.0.131/-/35ms GET /getvideo] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `0` IS NULL LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `0` IS NULL LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 8996
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:16:44,404 ERROR 8996 [-/192.168.0.131/-/22ms GET /getvideo?uid=7] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `0` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `0` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 8996
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:27:10,452 ERROR 20696 [-/192.168.0.131/-/30ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `0` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `0` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20696
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:28:27,251 ERROR 23208 [-/192.168.0.131/-/31ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'vsdvd' AND `times` = '2020/1/12 上午11:28:27' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'vsdvd' AND `times` = '2020/1/12 上午11:28:27' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 23208
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:30:17,462 ERROR 23208 [-/192.168.0.131/-/18ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'sb' AND `times` = '2020/1/12 上午11:30:17' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'sb' AND `times` = '2020/1/12 上午11:30:17' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 23208
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:30:18,346 ERROR 23208 [-/192.168.0.131/-/15ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'sb' AND `times` = '2020/1/12 上午11:30:18' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'sb' AND `times` = '2020/1/12 上午11:30:18' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 23208
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:30:25,837 ERROR 23208 [-/192.168.0.131/-/13ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'ndnfcv' AND `times` = '2020/1/12 上午11:30:25' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'ndnfcv' AND `times` = '2020/1/12 上午11:30:25' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 23208
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:32:19,944 ERROR 6616 [-/192.168.0.131/-/22ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'vsdvsd' AND `times` = '2020/1/12 上午11:32:19' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'vsdvsd' AND `times` = '2020/1/12 上午11:32:19' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 6616
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:33:47,992 ERROR 16312 [-/192.168.0.131/-/34ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'bddsbd' AND `times` = '2020/1/12 上午11:33:47' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'bddsbd' AND `times` = '2020/1/12 上午11:33:47' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16312
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:35:26,292 ERROR 16312 [-/192.168.0.131/-/16ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = '中文' AND `times` = '2020/1/12 上午11:35:26' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = '中文' AND `times` = '2020/1/12 上午11:35:26' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16312
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:39:48,728 ERROR 12980 [-/192.168.0.131/-/33ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = '下一班' AND `times` = '2020/1/12 上午11:39:36' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = '下一班' AND `times` = '2020/1/12 上午11:39:36' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12980
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:40:35,217 ERROR 16828 [-/192.168.0.131/-/21ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'x小伙子' AND `times` = '2020/1/12 上午11:40:35' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'x小伙子' AND `times` = '2020/1/12 上午11:40:35' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16828
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:41:28,794 ERROR 2280 [-/192.168.0.131/-/38ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'wenx' AND `times` = '2020/1/12 上午11:41:28' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'wenx' AND `times` = '2020/1/12 上午11:41:28' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 2280
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:43:41,197 ERROR 3548 [-/192.168.0.131/-/35ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 3548
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:47:26,462 ERROR 3548 [-/undefined/-/69640ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+headerSent: true
+name: "ER_BAD_FIELD_ERRORError"
+pid: 3548
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:47:26,499 ERROR 3548 [-/192.168.0.131/-/69ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 3548
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:48:04,731 ERROR 19332 [-/192.168.0.131/-/32ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column '0' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column '0' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `comment` WHERE `0` = '1' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 19332
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:49:59,572 ERROR 11952 [-/192.168.0.131/-/30ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = '不是都不舍得' AND `times` = '2020/1/12 上午11:49:59' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = '不是都不舍得' AND `times` = '2020/1/12 上午11:49:59' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 11952
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:51:42,990 ERROR 21232 [-/192.168.0.131/-/61ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = 'VB第三版相比' AND `times` = '2020/1/12 上午11:51:42' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = 'VB第三版相比' AND `times` = '2020/1/12 上午11:51:42' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 21232
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:56:06,164 ERROR 12340 [-/192.168.0.131/-/7251ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = '不是都不舍得' AND `times` = '2020/1/12 上午11:55:58' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = '不是都不舍得' AND `times` = '2020/1/12 上午11:55:58' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12340
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 11:57:13,685 ERROR 20792 [-/192.168.0.131/-/66ms POST /aplaycomment] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'commentcontent' in 'where clause'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `users` WHERE `commentcontent` = '吧是在v' AND `times` = '2020/1/12 上午11:57:13' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'commentcontent' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `users` WHERE `commentcontent` = '吧是在v' AND `times` = '2020/1/12 上午11:57:13' AND `vid` = '1' AND `uid` = '7' LIMIT 0, 1"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 20792
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 13:39:17,284 ERROR 12676 [-/192.168.0.131/-/208ms POST /editInfo/edit] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'unickname' in 'field list'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE `users` SET `unickname` = 'asd', `name` = '', `sex` = '', `location` = '', `birth` = '1970-1-1', `bloodType` = '', `trades` = 'fnfnf', `profiles` = '你发卡少女分散' WHERE `uid` = '7'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'unickname' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "UPDATE `users` SET `unickname` = 'asd', `name` = '', `sex` = '', `location` = '', `birth` = '1970-1-1', `bloodType` = '', `trades` = 'fnfnf', `profiles` = '你发卡少女分散' WHERE `uid` = '7'"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 12676
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 13:45:28,672 WARN 10888 [-/192.168.0.131/-/2321ms POST /uploadFile/upload] nodejs.Request_fileSize_limitError: Reach fileSize limit
+    at limit (D:\Vlog\vue\node_modules\_egg-multipart@2.10.1@egg-multipart\app\extend\context.js:24:15)
+    at Object.saveRequestFiles (D:\Vlog\vue\node_modules\_egg-multipart@2.10.1@egg-multipart\app\extend\context.js:145:22)
+    at async multipart (D:\Vlog\vue\node_modules\_egg-multipart@2.10.1@egg-multipart\app\middleware\multipart.js:13:5)
+    at async xframe (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (D:\Vlog\vue\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async D:\Vlog\vue\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+code: "Request_fileSize_limit"
+status: 413
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "Request_fileSize_limitError"
+pid: 10888
+hostname: DESKTOP-KT7DOKL
+
+2020-01-12 13:46:43,134 ERROR 10888 [-/192.168.0.131/-/6ms POST /uploadFile/upload] nodejs.TypeError: Cannot read property 'filepath' of undefined
+    at UploadFileController.upload (D:\Vlog\vue\app\controller\uploadFile.js:15:66)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 10888
+hostname: DESKTOP-KT7DOKL
+

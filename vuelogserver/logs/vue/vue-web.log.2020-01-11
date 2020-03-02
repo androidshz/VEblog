@@ -1,0 +1,1739 @@
+2020-01-08 20:35:51,956 ERROR 19240 [-/undefined/-/59ms GET /] nodejs.ECONNABORTEDError: write ECONNABORTED
+    at afterWriteDispatched (internal/stream_base_commons.js:150:25)
+    at writevGeneric (internal/stream_base_commons.js:133:3)
+    at Socket._writeGeneric (net.js:769:11)
+    at Socket._writev (net.js:778:8)
+    at doWrite (_stream_writable.js:429:12)
+    at clearBuffer (_stream_writable.js:528:5)
+    at Socket.Writable.uncork (_stream_writable.js:325:7)
+    at ServerResponse.end (_http_outgoing.js:736:21)
+    at respond (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\application.js:255:43)
+    at handleResponse (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\application.js:164:34)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+headerSent: true
+name: "ECONNABORTEDError"
+pid: 19240
+hostname: DESKTOP-KT7DOKL
+
+2020-01-08 20:35:51,986 ERROR 19240 [-/undefined/-/1ms GET /] nodejs.ECONNABORTEDError: write ECONNABORTED
+    at afterWriteDispatched (internal/stream_base_commons.js:150:25)
+    at writevGeneric (internal/stream_base_commons.js:133:3)
+    at Socket._writeGeneric (net.js:769:11)
+    at Socket._writev (net.js:778:8)
+    at doWrite (_stream_writable.js:429:12)
+    at clearBuffer (_stream_writable.js:528:5)
+    at Socket.Writable.uncork (_stream_writable.js:325:7)
+    at ServerResponse.end (_http_outgoing.js:736:21)
+    at respond (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\application.js:255:43)
+    at handleResponse (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\application.js:164:34)
+errno: "ECONNABORTED"
+code: "ECONNABORTED"
+syscall: "write"
+headerSent: true
+name: "ECONNABORTEDError"
+pid: 19240
+hostname: DESKTOP-KT7DOKL
+
+2020-01-09 21:45:27,932 ERROR 9376 [-/192.168.0.131/-/26ms GET /getvideo] nodejs.TypeError: Cannot read property 'select' of undefined
+    at VideoService.got (D:\Vlog\vue\app\service\video.js:11:40)
+    at UploadController.index (D:\Vlog\vue\app\controller\getvideo.js:10:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 9376
+hostname: DESKTOP-KT7DOKL
+
+2020-01-09 21:45:40,414 ERROR 9376 [-/192.168.0.131/-/1ms GET /getvideo] nodejs.TypeError: Cannot read property 'select' of undefined
+    at VideoService.got (D:\Vlog\vue\app\service\video.js:11:40)
+    at UploadController.index (D:\Vlog\vue\app\controller\getvideo.js:10:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 9376
+hostname: DESKTOP-KT7DOKL
+
+2020-01-09 21:46:45,067 ERROR 9376 [-/192.168.0.131/-/0ms GET /getvideo] nodejs.TypeError: Cannot read property 'select' of undefined
+    at VideoService.got (D:\Vlog\vue\app\service\video.js:11:40)
+    at UploadController.index (D:\Vlog\vue\app\controller\getvideo.js:10:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+
+pid: 9376
+hostname: DESKTOP-KT7DOKL
+
+2020-01-09 22:36:33,139 ERROR 16708 [-/192.168.0.131/-/330ms GET /getvideo] nodejs.TypeError: Cannot read property 'count' of undefined
+    at GetvideoController.index (D:\Vlog\vue\app\controller\getvideo.js:15:43)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Vlog\vue\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (D:\Vlog\vue\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async D:\Vlog\vue\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:53:56
+
+pid: 16708
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 12:14:11,845 WARN 17040 [-/192.168.0.131/-/2ms POST /aplaycomment] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-01-11 12:14:11,997 WARN 17040 [-/192.168.0.131/-/153ms POST /aplaycomment] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\app\extend\context.js:153:19)
+    at csrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:13)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (D:\Vlog\vue\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17040
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 12:14:55,479 WARN 17040 [-/192.168.0.131/-/1ms POST /aplaycomment] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-01-11 12:14:55,492 WARN 17040 [-/192.168.0.131/-/14ms POST /aplaycomment] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\app\extend\context.js:153:19)
+    at csrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:13)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (D:\Vlog\vue\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17040
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 12:16:15,136 WARN 17040 [-/192.168.0.131/-/0ms POST /aplaycomment] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-01-11 12:16:15,162 WARN 17040 [-/192.168.0.131/-/26ms POST /aplaycomment] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\app\extend\context.js:153:19)
+    at csrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:13)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (D:\Vlog\vue\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17040
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 12:18:23,939 WARN 17040 [-/192.168.0.131/-/1ms POST /aplaycomment] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-01-11 12:18:23,964 WARN 17040 [-/192.168.0.131/-/26ms POST /aplaycomment] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\app\extend\context.js:153:19)
+    at csrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:13)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (D:\Vlog\vue\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17040
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 12:24:06,873 WARN 23024 [-/192.168.0.131/-/212ms POST /aplaycomment] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-01-11 12:24:06,886 WARN 23024 [-/192.168.0.131/-/225ms POST /aplaycomment] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Vlog\vue\node_modules\_koa@2.11.0@koa\lib\context.js:97:11)
+    at Object.assertCsrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\app\extend\context.js:153:19)
+    at csrf (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:34:12
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:13)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+    at overrideMethod (D:\Vlog\vue\node_modules\_koa-override@3.0.0@koa-override\index.js:38:12)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@4.1.0@koa-compose\index.js:42:32)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 23024
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 12:35:14,107 ERROR 11296 [-/192.168.0.131/-/22ms POST /aplaycomment] nodejs.TypeError: app.mysql.set is not a function
+    at VideoService.set (D:\Vlog\vue\app\service\video.js:21:40)
+    at CommentController.index (D:\Vlog\vue\app\controller\comment.js:16:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11296
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 12:36:32,983 ERROR 11296 [-/192.168.0.131/-/1ms POST /aplaycomment] nodejs.TypeError: app.mysql.set is not a function
+    at VideoService.set (D:\Vlog\vue\app\service\video.js:21:40)
+    at CommentController.index (D:\Vlog\vue\app\controller\comment.js:16:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11296
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:20,375 ERROR 9736 [-/192.168.0.131/-/38ms GET /dongtai] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.shaoji' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `shaoji` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.shaoji' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `shaoji` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:20,430 ERROR 9736 [-/192.168.0.131/-/10ms GET /guandian] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.guandian' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `guandian` LIMIT 0, 8
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.guandian' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `guandian` LIMIT 0, 8"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:20,468 ERROR 9736 [-/192.168.0.131/-/142ms GET /shaoji] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.dongtai' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `dongtai` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.dongtai' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `dongtai` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:20,509 ERROR 9736 [-/192.168.0.131/-/41ms GET /tushang] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.tushang' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `tushang` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.tushang' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `tushang` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:20,545 ERROR 9736 [-/192.168.0.131/-/127ms GET /pingce] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.pingce' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `pingce` LIMIT 0, 8
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.pingce' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `pingce` LIMIT 0, 8"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:20,583 ERROR 9736 [-/192.168.0.131/-/163ms GET /tuijian] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.tuijian' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `tuijian` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.tuijian' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `tuijian` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:20,624 ERROR 9736 [-/192.168.0.131/-/151ms GET /zhuanti] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.zhuanti' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `zhuanti` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.zhuanti' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `zhuanti` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:30,634 ERROR 9736 [-/192.168.0.131/-/1ms GET /dongtai] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.shaoji' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `shaoji` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.shaoji' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `shaoji` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:30,727 ERROR 9736 [-/192.168.0.131/-/16ms GET /shaoji] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.dongtai' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `dongtai` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.dongtai' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `dongtai` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:30,773 ERROR 9736 [-/192.168.0.131/-/88ms GET /pingce] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.pingce' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `pingce` LIMIT 0, 8
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.pingce' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `pingce` LIMIT 0, 8"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:30,825 ERROR 9736 [-/192.168.0.131/-/135ms GET /guandian] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.guandian' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `guandian` LIMIT 0, 8
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.guandian' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `guandian` LIMIT 0, 8"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:30,862 ERROR 9736 [-/192.168.0.131/-/180ms GET /tuijian] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.tuijian' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `tuijian` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.tuijian' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `tuijian` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:30,905 ERROR 9736 [-/192.168.0.131/-/4ms GET /zhuanti] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.zhuanti' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `zhuanti` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.zhuanti' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `zhuanti` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:11:30,957 ERROR 9736 [-/192.168.0.131/-/132ms GET /tushang] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.tushang' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `tushang` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.tushang' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `tushang` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:12:12,155 ERROR 9736 [-/192.168.0.131/-/4ms GET /dongtai] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.shaoji' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `shaoji` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.shaoji' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `shaoji` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:12:12,217 ERROR 9736 [-/192.168.0.131/-/139ms GET /shaoji] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.dongtai' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `dongtai` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.dongtai' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `dongtai` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:12:12,265 ERROR 9736 [-/192.168.0.131/-/66ms GET /guandian] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.guandian' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `guandian` LIMIT 0, 8
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.guandian' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `guandian` LIMIT 0, 8"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:12:12,310 ERROR 9736 [-/192.168.0.131/-/109ms GET /pingce] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.pingce' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `pingce` LIMIT 0, 8
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.pingce' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `pingce` LIMIT 0, 8"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:12:12,356 ERROR 9736 [-/192.168.0.131/-/93ms GET /tushang] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.tushang' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `tushang` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.tushang' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `tushang` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:12:12,401 ERROR 9736 [-/192.168.0.131/-/137ms GET /tuijian] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.tuijian' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `tuijian` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.tuijian' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `tuijian` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 13:12:12,447 ERROR 9736 [-/192.168.0.131/-/90ms GET /zhuanti] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.zhuanti' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `zhuanti` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.zhuanti' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `zhuanti` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 9736
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 15:31:28,082 ERROR 23976 [-/192.168.0.131/-/19ms POST /addlikes] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.update like set times = times+1' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `UPDATE like SET times = times+1`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.update like set times = times+1' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `UPDATE like SET times = times+1`"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 23976
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 15:32:31,569 ERROR 6908 [-/192.168.0.131/-/17ms POST /addlikes] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.update like set times = times+1' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `UPDATE like SET times = times+1`
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.update like set times = times+1' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `UPDATE like SET times = times+1`"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 6908
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 15:35:03,095 ERROR 23348 [-/192.168.0.131/-/16ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like SET times = times+1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE like SET times = times+1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like SET times = times+1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE like SET times = times+1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 23348
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 15:37:12,934 ERROR 9832 [-/192.168.0.131/-/22ms POST /addlikes] nodejs.TypeError: app.mysql.upadte is not a function
+    at VideoService.addlikes (D:\Vlog\vue\app\service\video.js:33:40)
+    at CommentController.addlikes (D:\Vlog\vue\app\controller\comment.js:24:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 9832
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 15:42:18,250 ERROR 12504 [-/192.168.0.131/-/22ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET 
+        times  =addtimes.times+1' at line 1
+        times  =addtimes.times+1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE like  SET 
+        times  =addtimes.times+1 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET \n        times  =addtimes.times+1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE like  SET \n        times  =addtimes.times+1 "
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12504
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 15:58:53,349 ERROR 12812 [-/192.168.0.131/-/14ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET 
+        times  =addtimes.times+1' at line 1
+        times  =addtimes.times+1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE like  SET 
+        times  =addtimes.times+1 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET \n        times  =addtimes.times+1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE like  SET \n        times  =addtimes.times+1 "
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12812
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:10:23,225 ERROR 12812 [-/192.168.0.131/-/39ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET 
+        times  =addtimes.times+1' at line 1
+        times  =addtimes.times+1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE like  SET 
+        times  =addtimes.times+1 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET \n        times  =addtimes.times+1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE like  SET \n        times  =addtimes.times+1 "
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12812
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:10:23,287 ERROR 12812 [-/192.168.0.131/-/78ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET 
+        times  =addtimes.times+1' at line 1
+        times  =addtimes.times+1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE like  SET 
+        times  =addtimes.times+1 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET \n        times  =addtimes.times+1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE like  SET \n        times  =addtimes.times+1 "
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12812
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:10:40,831 ERROR 20784 [-/192.168.0.131/-/32ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET  times =times+1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE like  SET  times =times+1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like  SET  times =times+1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE like  SET  times =times+1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 20784
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:26:43,595 ERROR 21776 [-/192.168.0.131/-/19ms POST /addlikes] nodejs.ReferenceError: ctx is not defined
+    at VideoService.addlikes (D:\Vlog\vue\app\service\video.js:32:21)
+    at CommentController.addlikes (D:\Vlog\vue\app\controller\comment.js:24:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 21776
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:27:08,193 ERROR 17432 [-/192.168.0.131/-/13ms POST /addlikes] nodejs.ReferenceError: ctx is not defined
+    at VideoService.addlikes (D:\Vlog\vue\app\service\video.js:32:21)
+    at CommentController.addlikes (D:\Vlog\vue\app\controller\comment.js:24:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 17432
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:27:39,660 ERROR 22740 [-/192.168.0.131/-/16ms POST /addlikes] nodejs.ReferenceError: ctx is not defined
+    at VideoService.addlikes (D:\Vlog\vue\app\service\video.js:32:21)
+    at CommentController.addlikes (D:\Vlog\vue\app\controller\comment.js:24:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 22740
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:29:08,725 ERROR 564 [-/192.168.0.131/-/28ms POST /addlikes] nodejs.ReferenceError: ctx is not defined
+    at VideoService.addlikes (D:\Vlog\vue\app\service\video.js:32:21)
+    at CommentController.addlikes (D:\Vlog\vue\app\controller\comment.js:25:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 564
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 16:29:49,161 ERROR 564 [-/192.168.0.131/-/5962ms POST /addlikes] nodejs.ReferenceError: ctx is not defined
+    at VideoService.addlikes (D:\Vlog\vue\app\service\video.js:32:21)
+    at CommentController.addlikes (D:\Vlog\vue\app\controller\comment.js:25:44)
+    at Object.callFn (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\Vlog\vue\node_modules\_egg-core@4.17.4@egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at D:\Vlog\vue\node_modules\_@eggjs_router@2.0.0@@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\Vlog\vue\node_modules\_koa-compose@3.2.1@koa-compose\index.js:44:32)
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 564
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:09:02,991 ERROR 18620 [-/192.168.0.131/-/26ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = addtimes.vid' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE id = addtimes.vid
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = addtimes.vid' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE id = addtimes.vid"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 18620
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:10:21,614 ERROR 1696 [-/192.168.0.131/-/29ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE id = 1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id = 1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE id = 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 1696
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:10:52,691 ERROR 22652 [-/192.168.0.131/-/27ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = 1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = 1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = 1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 22652
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:12:02,145 ERROR 2280 [-/192.168.0.131/-/24ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = 1' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = 1
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = 1' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = 1"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 2280
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:15:22,461 ERROR 2280 [-/192.168.0.131/-/72ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid =' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid =' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = "
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 2280
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:15:47,702 ERROR 7340 [-/192.168.0.131/-/20ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = '1'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = '1'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 7340
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:20:21,296 ERROR 24328 [-/192.168.0.131/-/32ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = ''' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = ''
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = ''' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = ''"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 24328
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:20:49,344 ERROR 24328 [-/192.168.0.131/-/14ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = '1'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = '1'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 24328
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:25:40,434 ERROR 12984 [-/192.168.0.131/-/28ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = '1'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = '1'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 12984
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 17:26:55,164 ERROR 19116 [-/192.168.0.131/-/30ms POST /addlikes] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: UPDATE video SET likes = likes+1,  WHERE vid = '1'
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE vid = '1'' at line 1"
+sqlState: "42000"
+index: 0
+sql: "UPDATE video SET likes = likes+1,  WHERE vid = '1'"
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 19116
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 18:26:45,908 ERROR 11892 [-/192.168.0.131/-/30ms POST /aplaycomment] nodejs.TypeError: service.video.select is not a function
+    at CommentController.index (D:\Vlog\vue\app\controller\comment.js:18:44)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Vlog\vue\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (D:\Vlog\vue\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async D:\Vlog\vue\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11892
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 18:26:47,082 ERROR 11892 [-/192.168.0.131/-/12ms POST /aplaycomment] nodejs.TypeError: service.video.select is not a function
+    at CommentController.index (D:\Vlog\vue\app\controller\comment.js:18:44)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async D:\Vlog\vue\node_modules\_egg-development@2.4.3@egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\Vlog\vue\node_modules\_egg-security@2.7.1@egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\Vlog\vue\node_modules\_koa-session@5.12.3@koa-session\index.js:41:7)
+    at async bodyParser (D:\Vlog\vue\node_modules\_koa-bodyparser@4.2.1@koa-bodyparser\index.js:86:5)
+    at async D:\Vlog\vue\node_modules\_koa-static-cache@5.1.2@koa-static-cache\index.js:51:63
+headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
+pid: 11892
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 20:39:22,730 ERROR 16940 [-/192.168.0.131/-/6ms POST /login] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'nums' in 'field list'
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: update users set nums = nums+1,logintimes=NOW() where uid=7
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'nums' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "update users set nums = nums+1,logintimes=NOW() where uid=7"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 16940
+hostname: DESKTOP-KT7DOKL
+
+2020-01-11 22:11:05,389 ERROR 5432 [-/10.23.38.118/-/28ms GET /zhuanti] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'vlog.zhuanti' doesn't exist
+    at Query.Sequence._packetToError (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Connection.js:525:10)
+    at Socket.emit (events.js:210:5)
+    at addChunk (_stream_readable.js:309:12)
+    --------------------
+    at Pool.query (D:\Vlog\vue\node_modules\_mysql@2.17.1@mysql\lib\Pool.js:199:23)
+    at D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Vlog\vue\node_modules\_pify@2.3.0@pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Vlog\vue\node_modules\_ali-rds@3.3.0@ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:65:19)
+    at D:\Vlog\vue\node_modules\_co@4.6.0@co\index.js:54:5
+    sql: SELECT * FROM `zhuanti` LIMIT 0, 6
+code: "ER_NO_SUCH_TABLE"
+errno: 1146
+sqlMessage: "Table 'vlog.zhuanti' doesn't exist"
+sqlState: "42S02"
+index: 0
+sql: "SELECT * FROM `zhuanti` LIMIT 0, 6"
+headers: {"Access-Control-Allow-Origin":"http://localhost","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_NO_SUCH_TABLEError"
+pid: 5432
+hostname: DESKTOP-KT7DOKL
+

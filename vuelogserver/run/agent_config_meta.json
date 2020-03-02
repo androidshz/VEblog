@@ -1,0 +1,316 @@
+{
+  "keys": "D:\\Vlog\\vue\\config\\config.default.js",
+  "middleware": "D:\\Vlog\\vue\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\Vlog\\vue\\config\\config.default.js",
+      "port": "D:\\Vlog\\vue\\config\\config.default.js",
+      "hostname": "D:\\Vlog\\vue\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "D:\\Vlog\\vue\\config\\config.default.js",
+      "ignoreJSON": "D:\\Vlog\\vue\\config\\config.default.js",
+      "type": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "useSession": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "cookieName": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "sessionName": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "headerName": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "bodyName": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "queryName": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "value": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.local.js",
+      "maxAge": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "value": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "value": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "policy": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "D:\\Vlog\\vue\\config\\config.default.js",
+      "port": "D:\\Vlog\\vue\\config\\config.default.js",
+      "user": "D:\\Vlog\\vue\\config\\config.default.js",
+      "password": "D:\\Vlog\\vue\\config\\config.default.js",
+      "database": "D:\\Vlog\\vue\\config\\config.default.js"
+    },
+    "app": "D:\\Vlog\\vue\\config\\config.default.js",
+    "agent": "D:\\Vlog\\vue\\config\\config.default.js",
+    "default": {
+      "database": "D:\\Vlog\\vue\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\Vlog\\vue\\node_modules\\_egg-mysql@3.0.0@egg-mysql\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "mode": "D:\\Vlog\\vue\\config\\config.default.js",
+    "autoFields": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "fields": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "files": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\Vlog\\vue\\node_modules\\_egg-multipart@2.10.1@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\Vlog\\vue\\config\\config.default.js",
+    "allowMethods": "D:\\Vlog\\vue\\config\\config.default.js",
+    "credentials": "D:\\Vlog\\vue\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "D:\\Vlog\\vue\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "D:\\Vlog\\vue\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\Vlog\\vue\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "D:\\Vlog\\vue\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\Vlog\\vue\\node_modules\\_egg-security@2.7.1@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\Vlog\\vue\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\Vlog\\vue\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\Vlog\\vue\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\Vlog\\vue\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\Vlog\\vue\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\Vlog\\vue\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\Vlog\\vue\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\Vlog\\vue\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\Vlog\\vue\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\Vlog\\vue\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\Vlog\\vue\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\Vlog\\vue\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\Vlog\\vue\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\Vlog\\vue\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js",
+      "development": "D:\\Vlog\\vue\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\Vlog\\vue\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js",
+      "file": "D:\\Vlog\\vue\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\Vlog\\vue\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "D:\\Vlog\\vue\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\Vlog\\vue\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "fastReady": "D:\\Vlog\\vue\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\Vlog\\vue\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\Vlog\\vue\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\Vlog\\vue\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\Vlog\\vue\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\Vlog\\vue\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\Vlog\\vue\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\Vlog\\vue\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\Vlog\\vue\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\Vlog\\vue\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\Vlog\\vue\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "D:\\Vlog\\vue\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "D:\\Vlog\\vue\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "D:\\Vlog\\vue\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "D:\\Vlog\\vue\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\Vlog\\vue\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\Vlog\\vue\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "D:\\Vlog\\vue\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\Vlog\\vue\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\Vlog\\vue\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "mapping": "D:\\Vlog\\vue\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "name": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "cookies": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "proxy": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "ipHeaders": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "hostHeaders": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "version": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "description": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "private": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-cors": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-mysql": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-scripts": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "svg-captcha": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "autod-egg": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-bin": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-ci": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "egg-mock": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "eslint": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "stop": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "dev": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "debug": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "test": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "test-local": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "cov": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "lint": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "ci": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "autod": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "url": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "author": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "license": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "baseDir": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "HOME": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "rundir": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "notFound": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "sitefile": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "middlewares": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "httpClient": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "encoding": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "formLimit": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "jsonLimit": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "textLimit": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "strict": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "depth": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "parameterLimit": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "encoding": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "env": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "level": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "consoleLevel": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "outputJSON": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "buffer": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "appLogName": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "coreLogName": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "agentLogName": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "errorLogName": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxSockets": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "logging": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "serverTimeout": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js",
+    "responseTimeout": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\Vlog\\vue\\node_modules\\_egg@2.26.0@egg\\config\\config.default.js"
+}

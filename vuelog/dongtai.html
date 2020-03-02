@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>动态</title>
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <link rel="stylesheet" href="./css/dongtai.css">
+    
+</head>
+
+<body>
+	<!--<div id="topbar">
+			<div id="wraper" class="mouse">
+				<a class="logo"></a>
+				<div id="nav">
+					<ul>
+						<li class="curent">
+							<a href="">首页</a>
+						</li>
+						<li>
+							<a href="">动态</a>
+						</li>
+						<li>
+							<a href="">推荐</a>
+						</li>
+						<li>
+							<a href="">我的收藏</a>
+						</li>
+						<li>
+							<a href="">帮助 </a>
+						</li>
+						<li>
+							<a href="./login.html">登录 </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	-->
+	
+    <div class="container">
+    	 <input type="hidden" class="uid" value="">
+        <!-- 顶部 -->
+        <div class="imgBox">
+            <img class="img-slide img1" src="https://cs.xinpianchang.com/uploadfile/banner/2020/01/09/5e16b72570517.png@2280w_800h_1e_1c" alt="1">
+            <img class="img-slide img2" src="https://cs.xinpianchang.com/uploadfile/banner/2020/01/06/5e1297352259a.jpg@2280w_800h_1e_1c" alt="2">
+            <img class="img-slide img3" src="https://cs.xinpianchang.com/uploadfile/banner/2020/01/10/5e17d8d19aa48.jpg@2280w_800h_1e_1c" alt="3">
+        </div>
+        <!-- 状态栏 -->
+        <nav id="nav">
+            <ul class="flexul">
+                <li class="act">动态</li>
+                <li>烧机</li>
+                <li>观点</li>
+                <li>评测</li>
+                <li>图赏</li>
+                <li>专题</li>
+                <li>推荐</li>
+            </ul>
+        </nav>
+        <!-- 内容 -->
+        <div id="container">
+            <!-- 动态 -->
+            <section class="tab">
+                <div class="center  videodiv" style="flex-wrap: wrap;">
+                    <!-- 小盒子 -->
+                 <input type="hidden" name="cid" value="">
+                    <div class="centerv" style="height: 280px; margin-bottom: 20px;">
+                        <div>
+                            <video src="./devio/devio1.mp4" width="100%" height="100%" autoplay="autoplay" loop="loop"
+                                muted="">
+                        </div>
+                        <div>
+                            <div class="text" style="padding-top: 10px;">延时摄影：花朵盛开全过程 摄影镜头下呈现</div>
+                            <div class="top" style="padding-top: 10px;">
+                                <img src="./img/shijian.png" alt="">
+                                <span>2020.01.01</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- 烧机 -->
+            <section class="tab">
+                <div class="center  shaojisql"  style="flex-wrap: wrap;">
+                    <!-- 小盒子 -->
+                    <div class="centerv center2">
+                        <img src="./img/shaoji1.jpg" alt="图片加载失败">
+                        <div class="text shaojitext" style="padding-top: 10px;">srsergsgfgs</div>
+                        <div class="wenzi" style="padding-top: 5px;">很高兴有机会体验索尼FE
+                            35mmF1.8镜头，这个颗镜头自从年中发布就得到了大家的关注，或许不是GM加持，但适中的价位，优秀的成像效果，关键是轻便体积非常吸引我。
+                            我平日里拥有一台7III，作为个人最常用的机身之一，这台机器满足了大部分的拍摄需求，约2420万有效像素，优秀的对焦和连拍性能，作为工作机绰绰有余。可工作之外，我也希望有套纯粹而轻松的组合来伴我度假。
+                            所以</div>
+                        <div class="top" style="padding-top: 5px;">
+                            <img src="./img/yonghu.png" alt="" srcset="">
+                            <span>senobi</span>
+                            <img src="./img/shijian.png" alt="">
+                            <span>2020.01.03</span>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </section>
+            <!-- 观点 -->
+            <section class="tab">
+                <div class="center  guandainsql"  style="flex-wrap: wrap;margin-bottom: 20px;">
+                    <!-- 小盒子 -->
+                    
+                    <input type="hidden" name="cid" value="">
+                    <div class="centerv center3">
+                        <img src="./img/guandian1.jpg" alt="图片加载失败">
+                        <div style="font-size: 14px;padding-left: 5px;">生态摄影师郑洋：我更注重拍摄的实际品质</div>
+                        <div style="color: #717171;font-size: 10px;padding-top: 10px;">
+                            <img style="width: 15px;height: 15px;" src="./img/ci.png" alt="">
+                            <span>佳能 摄影师 生态</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- 评测 -->
+            <section class="tab">
+                <div class="center pingcesql"  style="flex-wrap: wrap;margin-bottom: 20px;">
+                    <!-- 小盒子 -->
+                    <input type="hidden" name="cid" value="">
+                    <div class="centerv center2">
+                        <img src="./img/pingce1.jpg" alt="图片加载失败">
+                        <div class="text" style="padding-top: 10px;color: #f00;">美近在咫尺 vivo X30 Pro详细试用</div>
+                        <div class="wenzi" style="padding-top: 5px;">
+                            一直以来X系列都是vivo线下市场主力军，其表现直接关系到线下销售数据，自X20开始每年3月、9月几乎成了该系列更新节点，而为了吸引关注，vivo在发布地点的选择上也是煞费苦心，北京居庸关长城、浙江乌镇、北京雁西湖、海南三亚一路走来每次都不带重样。今年下半年X系列来的比往年要晚，12月中旬X30系列手机正式在广西桂林发布。之所以X30系列发布比较晚，很大原因是vivo为了打造双模5G专业影</div>
+                        <div class="top" style="padding-top: 5px;">
+                            <img src="./img/yonghu.png" alt="" srcset="">
+                            <span>梁爽</span>
+                            <img src="./img/shijian.png" alt="">
+                            <span>2020.01.03</span>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+            <!-- 图赏 -->
+            <section class="tab">
+                <div class="center tushangsql"  style="flex-wrap: wrap;">
+                    <!-- 小盒子 -->
+                    <input type="hidden" name="cid" value="">
+                    <div class="centerv"  style="margin-bottom: 20px;">
+                        <div style="width: 100%;height: 250px;">
+                            <img src="./img/tushang1.jpg" alt="图片加载失败">
+                        </div>
+                        <div class="h">用Sony α7R III+FE 55mm F1.8 ZA拍摄室内人像</div>
+                    </div>
+                   
+                </div>
+            </section>
+            <!-- 专题 -->
+            <section class="tab">
+                <div class="center zhuantisql" style="flex-wrap: wrap;">
+                    <!-- 小盒子 -->
+                    <div class="zhuanti" style="margin-bottom: 20px;">
+                        <img src="./img/zhuanti1.jpg" alt="图片加载失败">
+                        <div class="text" style="padding-top: 30px;">十年磨一剑 今朝试锋芒 —— 松下全画幅微单LUMIX S1/S1R亮剑</div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!-- 推荐 -->
+            <section class="tab">
+                <div class="center tuijiansql"  style="flex-wrap: wrap;">
+                    <!-- 小盒子 -->
+                    <div class="tuijian" style="margin-bottom: 20px;">
+                        <img src="./img/tuijian1.jpg" alt="图片加载失败">
+                        <div style="padding-left: 10px;">肖童：尼康初代微单已跳过第一段进化期</div>
+                        <div style="padding-top: 60px;">
+                            <img style="width: 15px;height: 15px;padding-left: 10px;" src="./img/yonghu.png" alt=""
+                                srcset="">
+                            <span style="font-size: 12px;color: #717171;">梁爽</span>
+                            <img style="width: 15px;height: 15px;padding-left: 10px;" src="./img/shijian.png" alt="">
+                            <span style="font-size: 12px;color: #717171;">2019.12.20</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+        <!-- 底部栏 -->
+        <div class="bottom">
+            <div class="bottomp">
+                <!-- logo -->
+                <img style="width: 295px;height: 60px;" src="./img/logo.png" alt="">
+                <!-- 右边 -->
+                <div class="right">
+                    <div class="three">
+                        <div>喵影工厂</div>
+                        <div style="font-size: 12px;">喵影工厂桌面版</div style="font-size: 12px;">
+                        <div style="font-size: 12px;">喵影工厂移动版</div>
+                        <div style="font-size: 12px;">产品下载</div>
+                        <div style="font-size: 12px;">产品购买</div>
+                        <div style="font-size: 12px;">系统参数</div>
+                        <div style="font-size: 12px;">版本更新</div>
+                    </div>
+                    <div class="three">
+                        <div>用户支持</div>
+                        <div style="font-size: 12px;">常见问题</div>
+                        <div style="font-size: 12px;">新手指南</div>
+                        <div style="font-size: 12px;">视频教程</div>
+                        <div style="font-size: 12px;">跟多教程</div>
+                        <div style="font-size: 12px;">剪辑大赛</div>
+                    </div>
+                    <div class="three">
+                        <div>关于我们</div>
+                        <div style="font-size: 12px;">联系我们</div>
+                        <div style="font-size: 12px;">关于喵影工厂</div>
+                        <div style="font-size: 12px;">友情链接</div>
+                    </div>
+                    <div class="three">
+                        <div>关注我们</div>
+                        <img style="width: 80px;height: 80px;" src="./img/double.jpg" alt="抱歉，网被劫持了">
+                        <div style="font-size: 12px;">扫一扫关注我们</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="background-color: #565251;">
+        <div class="bottomb">
+            <div>关于喵影工厂|联系我们 |隐私声明|用户协议I 法律公告|营业执照Copyright◎2019喵影工厂</div>
+            <div>Copyright◎2019喵影工厂Wondershare. All rights reserved.藏ICP备 17000062号-2</div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- <script type="text/javascript" color="#908D8C" opacity='0.7' zIndex="-2" count="99"
+        src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script> -->
+        <script src="./layui/layui.all.js"></script>
+        <script src="./js/index.js"></script>
+        <script src="./js/dongtai.js"></script>
+        
+</body>
+<script type="text/javascript">
+    var index = 0;
+    //改变图片
+    function ChangeImg() {
+        index++;
+        var a = document.getElementsByClassName("img-slide");
+        if (index >= a.length) index = 0;
+        for (var i = 0; i < a.length; i++) {
+            a[i].style.display = 'none';
+        }
+        a[index].style.display = 'block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg, 2000);
+</script>
+</html>

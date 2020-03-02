@@ -1,0 +1,309 @@
+.content {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 5; }
+  .content .c-top {
+    width: 940px;
+    height: 345px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url("http://img.t.sinajs.cn//t5//skin//public//profile_cover//001.jpg");
+    background-repeat: no-repeat; }
+    .content .c-top .c-top-c {
+      height: 295px; }
+      .content .c-top .c-top-c .sculpture {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin: 20px 420px;
+        background-color: #000; }
+      .content .c-top .c-top-c .endearment {
+        display: inline-block;
+        width: 940px;
+        margin-top: 10px;
+        font-size: 22px;
+        font-weight: normal;
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+        color: #fff;
+        text-align: center; }
+      .content .c-top .c-top-c .personality {
+        font-size: 12px;
+        font-weight: normal;
+        text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+        display: inline-block;
+        width: 940px;
+        margin-top: 10px;
+        color: #fff;
+        text-align: center; }
+    .content .c-top .c-top-bar {
+      height: 45px;
+      width: 940px;
+      background-color: #f2f2f5; }
+      .content .c-top .c-top-bar .bar-content {
+        width: 600px;
+        height: 45px;
+        margin: 0 auto; }
+        .content .c-top .c-top-bar .bar-content .tt {
+          width: 184px;
+          height: 41px;
+          display: inline-block;
+          text-align: center;
+          line-height: 41px;
+          transition: all 0.5s; }
+          .content .c-top .c-top-bar .bar-content .tt:hover {
+            border-bottom: 4px solid #f7691d; }
+        .content .c-top .c-top-bar .bar-content .ttt {
+          border-bottom: 4px solid #f7691d; }
+  .content .c-content {
+    width: 940px;
+    margin-top: 20px; }
+    .content .c-content .left {
+      width: 300px;
+      float: left; }
+      .content .c-content .left .info {
+        width: 300px;
+        height: 60px;
+        background-color: #f2f2f5; }
+        .content .c-content .left .info .a {
+          display: inline-block;
+          width: 96px;
+          height: 34px;
+          margin-top: 13px;
+          text-align: center; }
+          .content .c-content .left .info .a .num {
+            display: block;
+            font-size: 18px;
+            margin-top: -3px; }
+            .content .c-content .left .info .a .num:hover {
+              color: #f7691d;
+              transition: all 0.5s; }
+          .content .c-content .left .info .a .text {
+            display: block;
+            font-size: 12px; }
+        .content .c-content .left .info .fans {
+          border-left: 1px solid #ccc;
+          border-right: 1px solid #ccc; }
+      .content .c-content .left .info1 {
+        width: 300px;
+        height: 128px;
+        margin-top: 20px;
+        background-color: #f2f2f5; }
+        .content .c-content .left .info1 .border {
+          display: inline-block;
+          width: 300px;
+          height: 35px;
+          text-align: center;
+          line-height: 30px; }
+          .content .c-content .left .info1 .border:hover {
+            color: #f7691d;
+            transition: all 0.5s; }
+        .content .c-content .left .info1 .center {
+          display: inline-block;
+          width: 300px;
+          height: 58px;
+          text-align: center;
+          line-height: 58px;
+          border-bottom: 1px solid #ccc;
+          border-top: 1px solid #ccc; }
+    .content .c-content .right {
+      width: 600px;
+      float: left;
+      margin-left: 40px; }
+      .content .c-content .right .bar {
+        width: 600px;
+        height: 38px;
+        background-color: #f2f2f5; }
+      .content .c-content .right .card {
+        width: 600px;
+        height: 652px;
+        margin-top: 20px;
+        background-color: #f2f2f5; }
+    .content .c-content .top {
+      width: 940px;
+      height: 39px;
+      background-color: #fff; }
+    .content .c-content .content {
+      width: 940px;
+      height: 470px;
+      background-color: #fff; }
+    .content .c-content .clear {
+      clear: both; }
+
+.foot {
+  position: relative;
+  z-index: 5;
+  width: 100vw;
+  height: 265px;
+  margin-top: 20px;
+  background-color: #fff; }
+
+.content .c-content .right .card-info {
+  width: 600px;
+  height: 710px;
+  background-color: #f2f2f5; }
+  .content .c-content .right .card-info .box1 .title {
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 18px;
+    margin-top: 20px;
+    display: inline-block; }
+  .content .c-content .right .card-info .box1 .br {
+    display: inline-block;
+    width: 460px;
+    height: 5px;
+    margin-left: 5px;
+    border-top: 1px solid #ccc; }
+  .content .c-content .right .card-info .box1 .button {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 13px;
+    font-size: 12px;
+    width: 38px;
+    text-align: center;
+    height: 20px;
+    margin-left: 1px;
+    line-height: 20px;
+    background-color: rgba(204, 204, 204, 0.4); }
+    .content .c-content .right .card-info .box1 .button:hover {
+      background-color: #ffce82;
+      color: #fff;
+      transition: all 0.5s; }
+  .content .c-content .right .card-info .box2 {
+    margin-top: 15px; }
+    .content .c-content .right .card-info .box2 .text {
+      color: #808080;
+      font-size: 12px;
+      width: 53px;
+      margin-left: 20px;
+      text-align: right;
+      float: left; }
+    .content .c-content .right .card-info .box2 .information {
+      float: left;
+      font-size: 12px;
+      margin-left: 18px; }
+    .content .c-content .right .card-info .box2 .editInformation {
+      float: left;
+      font-size: 12px;
+      margin-left: 18px;
+      display: none; }
+    .content .c-content .right .card-info .box2 a {
+      float: left;
+      color: #0a8cd2;
+      font-size: 12px;
+      margin-left: 18px; }
+    .content .c-content .right .card-info .box2 .clear {
+      clear: both; }
+
+.content .c-content .top {
+  background-color: #f2f2f5;
+  height: 39px; }
+  .content .c-content .top #dh0, .content .c-content .top #dh1, .content .c-content .top #dh2, .content .c-content .top #dh3 {
+    display: inline-block;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px; }
+  .content .c-content .top .dh {
+    border-bottom: 3px solid #000; }
+.content .c-content .content {
+  background-color: #f2f2f5; }
+  .content .c-content .content .PhotoWall {
+    background-color: #f2f2f5; }
+  .content .c-content .content .video {
+    display: none; }
+  .content .c-content .content .Fabulous {
+    display: none; }
+
+.defaultSpan {
+  display: inline-block;
+  margin-top: 150px;
+  margin-left: 367px; }
+
+.releaseBt {
+  display: block;
+  width: 102px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  background-color: #ff8140;
+  border: 1px solid #ff8140;
+  margin: 0 auto;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 3px 3px 4px black; }
+
+.content .c-content .top a .back {
+  display: inline-block;
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px; }
+  .content .c-content .top a .back:hover {
+    color: #f7691d;
+    transition: all .5s; }
+.content .c-content .content .box-add {
+  background-color: #f2f2f5; }
+  .content .c-content .content .box-add .box-adda {
+    padding-top: 30px;
+    margin-left: 20px; }
+    .content .c-content .content .box-add .box-adda .spanInput {
+      margin-left: 39px; }
+    .content .c-content .content .box-add .box-adda .uploadFileBt {
+      display: inline-block;
+      width: 80px;
+      height: 25px;
+      background-color: #fff;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 25px;
+      margin-top: 30px;
+      margin-left: 20px; }
+    .content .c-content .content .box-add .box-adda .uploadFileImg {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      margin-top: 20px;
+      margin-left: 22px;
+      border: 1px solid #fff;
+      display: none; }
+    .content .c-content .content .box-add .box-adda .box {
+      margin-top: 20px; }
+      .content .c-content .content .box-add .box-adda .box span {
+        display: block; }
+      .content .c-content .content .box-add .box-adda .box .spanText {
+        margin-left: 78px; }
+
+.content .c-content .right .card-info .box {
+  padding-top: 20px;
+  margin-left: 20px; }
+  .content .c-content .right .card-info .box .forget {
+    font-size: 14px;
+    color: blue; }
+  .content .c-content .right .card-info .box .pw {
+    display: inline-block;
+    text-align: center;
+    width: 270px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+.bgimg {
+  background-image: url("../img/4.jpg");
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-repeat: no-repeat; }
+
+/*# sourceMappingURL=commit.css.map */
